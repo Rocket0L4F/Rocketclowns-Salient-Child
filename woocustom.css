@@ -1,0 +1,257 @@
+/* ----------------------------------------------------------- */
+
+/* WooCommerce STYLING FOR MOBILE AND DESKTOP: 
+-------------------------------------------------------------- */
+
+.first-section{
+  	display: none!important;
+	visibility: hidden!important;
+}
+
+html .woocommerce .woocommerce-message, html .woocommerce .woocommerce-error, html .woocommerce .woocommerce-info {
+  	background-color: #000000!important;
+}
+
+/* hide empty space above product photo on product focus page: */
+.woocommerce-tabs { margin-top:0px!important; }
+
+html .woocommerce ul.products .price {
+	text-align: center!important;
+	font-weight: lighter!important;
+}
+
+html .woocommerce ul.products h3 {
+	text-align: center!important;
+}
+
+p.price {
+	margin: 0px!important;
+	margin-top: 0px!important;
+	margin-bottom: 0px!important;
+}
+
+.woocommerce .single-product-summary {
+	color:black!important;
+	font-size: 12px;
+	line-height: 16px;
+	z-index: 9999;
+}
+.woocommerce .amount {
+	font-size: 12px;
+	font-weight: normal!important;
+}
+
+.woocommerce .product-wrap {
+	font-size: 12px!important;
+}
+
+.woocommerce .cart .button.update_cart {
+	display: none !important;
+}
+
+.woocommerce div.product form.cart .button, .woocommerce-page div.product form.cart .button, .woocommerce #content div.product form.cart .button, .woocommerce-page #content div.product form.cart .button {
+	margin-left: 0!important;
+}
+
+/*
+.woocommerce div.product form.cart .button:before, .woocommerce-page div.product form.cart .button:before, .woocommerce #content div.product form.cart .button:before, .woocommerce-page #content div.product form.cart .button:before {
+	content: 'Add to shoppingbag'!important;
+}
+*/
+
+.woocommerce div.product form.cart .button:after, .woocommerce-page div.product form.cart .button:after, .woocommerce #content div.product form.cart .button:after, .woocommerce-page #content div.product form.cart .button:after {
+	content: ' / Shoppingbag';
+}
+
+#variations_clear {  
+	display: none !important;  
+}
+
+.woocommerce .price, h3{
+	/*text-align: center;*/
+	font-size: 24px;
+}
+
+
+
+.woocommerce .single_variation_wrap {display:none}
+.woocommerce .related {display:none}
+.woocommerce .tabs {display:none}
+.woocommerce .product-thumbs {display:none}
+.woocommerce .sku{display:none}
+.woocommerce .posted_in{display:none}
+.woocommerce .tagged_as{display:none}
+.clear{display:none}
+.variations_clear{display:none}
+.woocommerce .woocommerce-message a.button,.woocommerce .woocommerce-error a.button ,.woocommerce .woocommerce-info a.button  {display:none;}
+
+.woocommerce .product-thumbnail a {
+	width: 45%!important;
+}
+
+.woocommerce .woocommerce-checkout-review-order-table th, td {
+	padding-left: 0px!important;
+}
+
+.woocommerce .woocommerce-checkout-review-order-table .cart_item {
+	border-bottom: 1px solid #ccc!important;
+}
+
+.woocommerce .shop_table .cart_item td {
+	border-top: 1px solid #ccc!important;
+}
+/* ----------------------------------------------------------- */
+
+/* WooCommerce COLORS AND SWATCHES STYLING: 
+-------------------------------------------------------------- */
+
+.variation_form_section .label{
+	display: none!important;
+}
+
+.variation_form_section #size_label{
+	display: none!important;
+}
+
+table.variations-table td {
+	background:#fff;
+    border:none!important;
+	padding-bottom: 0px;
+}
+
+.swatch-wrapper {
+    padding:2px;
+    background:#fff;
+    border:1px solid #fff;
+    float:left;
+    margin:0 5px 5px 0;
+}
+
+.swatch-wrapper:hover {
+    border-color:#fff;
+	opacity: 0.5;
+}
+
+.swatch-wrapper.disabled:hover {
+    border-color:#ccc;
+}
+
+.swatch-wrapper a {
+    display:block;
+}
+
+div.swatch-wrapper.selected  {
+    border:1px solid #000;
+    padding:2px;
+}
+
+/* ACCOUNT */
+.myaccount_user a:hover {
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px!important;
+}
+
+div.col-1.address h3, div.col-2.address h3  {
+	font-size: 12px!important;
+	color: #000!important;
+}
+
+a.edit {
+	float: left!important;
+	margin-left: 24px;
+	margin-top: -3px!important;
+}
+
+a.edit:hover {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0px!important;	
+}
+
+/* checkout */
+.woocommerce {
+	font-weight: 100!important!;
+}
+
+.woocommerce input[type="text"] {
+	height:12px;
+	font-family: 'mulilight'!important;
+	color: #000!important;
+}
+
+#order_comments{
+	height:16px;
+	font-family: 'mulilight'!important;
+	font-size: 12px!important;
+	color: #000!important;
+}
+
+.shipping-calculator-button {
+	display:none;
+}
+
+#content input.button[value="Update Cart"] {display:none !important}
+
+.woocommerce-page .cart-collaterals .cart_totals table tr.cart-subtotal th, td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.shipping th, td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.order-total th, td {
+	color: #000;
+    font-size: 12px!important;
+}
+
+.cart_totals h2{
+	display:none;
+}
+
+input[type="submit"][value="Proceed to Checkout"] {
+	max-width: 50%!important;
+}
+
+.wc-backward {
+	border-radius: 0px !important;
+}
+/* ----------------------------------------------------------- */
+
+/* WooCommerce STYLING FOR MOBILE: 
+-------------------------------------------------------------- */
+
+/* mobile phone */
+@media  (max-width: 480px) {
+	
+	/* hide extra images on product page, extra class name of images must be 'desktopimage' */
+	.desktopimage {
+		display:none!important;
+	}
+	
+	/* resize ios slider */
+	.images {
+		max-width: 50%!important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+/* mobile phone 
+@media  (max-width: 480px) {
+	.desktopimage {
+    max-width: 100%;
+    height: auto;
+    max-height: 50%!important;
+    cursor: pointer !important;
+	}
+}
+*/
+
+/* ----------------------------------------------------------- */
+
+/* WooCommerce STYLING FOR DESKTOP: 
+-------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+	.woocommerce .single-product-summary {
+		position: absolute;
+		left: 75%;
+		width: 25%;
+	}
+}

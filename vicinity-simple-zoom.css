@@ -1,0 +1,9 @@
+img[data-zoomstatus="small"] {
+  cursor: zoom-out;
+  cursor: url('/wp-content/themes/Rocketclowns-Salient-Child/images/plus.ico'), zoom-out;
+}
+
+img[data-zoomstatus="zoomed"] {
+  cursor: zoom-in;
+  cursor: url('/wp-content/themes/Rocketclowns-Salient-Child/images/minus.ico'), zoom-in;
+}

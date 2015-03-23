@@ -1,0 +1,12 @@
+#footer-widgets .col.span_6 {
+	width: 99%;
+	font-size: 12px;
+	text-align: center;
+}
+#footer-widgets .col.span_6.col_last {
+	  display:none;
+}
+.textwidget a:hover {
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px!important;
+}

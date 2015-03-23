@@ -1,0 +1,76 @@
+@import url("../salient/style.css");
+@import url("fontMuli.css");
+@import url("fontQuestrial.css");
+@import url("headercustom.css");
+@import url("searchcustom.css");
+@import url("woocustom.css");
+@import url("vicinity-simple-zoom.css");
+@import url("newslettercustom.css");
+@import url("footercustom.css");
+
+/*
+ Theme Name:   	Rocketclowns-Salient-Child
+ Template:     	salient
+ Description:  	custom css mods for Marscha Hüskes
+ Author: 		0L4F
+ Author URI: 	http://rocketclowns.com/
+*/
+
+
+
+/* =Theme customization starts here:
+SITE-WIDE CSS:
+-------------------------------------------------------------- */
+/*
+html * {
+	font-weight: normal!important;
+	font-size: 12px!important;
+}
+*/
+li:not(.toptext){
+	font-weight: normal!important;
+	font-size: 12px!important;
+}
+
+body, body .container-wrap {
+	background-color: #FFF!important;
+	/*font-family: 'questrialregular'!important;*/
+	font-family: 'mulilight'!important;
+}
+
+#mobile-menu ul li a {
+	/*font-family: 'questrialregular'!important;*/
+	font-family: 'mulilight'!important;
+	font-size: 16px!important;
+}
+
+/* TOP TEXT BLOCK */
+.toptexttitle{
+	text-align: center; 
+	font-size: 34px; 
+	letter-spacing: 17px;
+}
+
+/* mobile phone */
+@media  (max-width: 480px) {
+	.toptexttitle{
+		text-align: center; 
+		font-size: 24px;
+		letter-spacing: 12px;
+	}
+}
+
+.toptext{
+	margin-left:10%;
+	margin-right:10%;
+	text-align: center;
+	font-family: 'mulilight'!important;
+	font-size: 22px!important;
+	color: #fff!important;
+}
+
+.toptext a {
+  	border-bottom: 1px solid #fff;
+  	padding-bottom: 2px!important;
+	color: #fff!important;
+}
